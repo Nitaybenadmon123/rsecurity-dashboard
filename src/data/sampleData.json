@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "user": "u123",
+    "action": "login_success",
+    "ip": "10.0.0.5",
+    "timestamp": "2026-02-23T10:00:00Z"
+  },
+  {
+    "id": 2,
+    "user": "u123",
+    "action": "login_failed",
+    "ip": "8.8.8.8",
+    "timestamp": "2026-02-23T10:01:00Z"
+  },
+  {
+    "id": 3,
+    "user": "u777",
+    "action": "download_file",
+    "ip": "192.168.1.9",
+    "timestamp": "2026-02-23T10:02:00Z"
+  }
+]
