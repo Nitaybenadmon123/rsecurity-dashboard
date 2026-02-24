@@ -41,6 +41,10 @@ export default function DataTable({ rows }) {
         padding: "10px 8px",
         borderBottom: "1px solid #e5e7eb",
         whiteSpace: "nowrap",
+        position: "sticky",
+        top: 0,
+        background: "#ffffff",
+        zIndex: 1,
       }}
       title="Click to sort"
     >
@@ -56,8 +60,8 @@ export default function DataTable({ rows }) {
   }
 
   return (
-    <div style={{ overflowX: "auto" }}>
-      <table style={{ width: "100%", borderCollapse: "collapse" }}>
+      <div style={{ overflowX: "auto", maxHeight: 420, overflowY: "auto" }}>     
+       <table style={{ width: "100%", borderCollapse: "collapse" }}>
         <thead>
           <tr>
             <Th label="Timestamp" colKey="timestamp" />
