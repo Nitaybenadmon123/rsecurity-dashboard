@@ -2,13 +2,13 @@ import React from "react";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid, ResponsiveContainer } from "recharts";
 
 export default function ActionBarChart({ rows }) {
-  // הופכים את rows לסטטיסטיקה: כמה מכל action
+  
   const counts = rows.reduce((acc, row) => {
     acc[row.action] = (acc[row.action] || 0) + 1;
     return acc;
   }, {});
 
-  // Recharts רוצה מערך של אובייקטים
+
   const chartData = Object.entries(counts).map(([action, count]) => ({
     action,
     count,

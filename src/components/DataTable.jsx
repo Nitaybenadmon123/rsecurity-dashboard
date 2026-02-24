@@ -12,11 +12,10 @@ export default function DataTable({ rows }) {
       const av = a[key];
       const bv = b[key];
 
-      // מיון טקסט/תאריך/מספר בצורה פשוטה
+      
       if (av === bv) return 0;
       const order = sortBy.dir === "asc" ? 1 : -1;
 
-      // timestamps הם מחרוזות ISO, השוואה לקסיקוגרפית עובדת טוב
       return av > bv ? order : -order;
     });
 
@@ -51,8 +50,8 @@ export default function DataTable({ rows }) {
   );
 
   function rowStyle(action) {
-    if (action === "login_failed") return { background: "#fff1f2" }; // אדמדם עדין
-    if (action === "login_success") return { background: "#f0fdf4" }; // ירקרק עדין
+    if (action === "login_failed") return { background: "#fff1f2" }; 
+    if (action === "login_success") return { background: "#f0fdf4" }; 
     return {};
   }
 

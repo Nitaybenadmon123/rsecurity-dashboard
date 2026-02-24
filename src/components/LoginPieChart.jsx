@@ -3,7 +3,6 @@ import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from "recha
 
 export default function LoginPieChart({ rows }) {
 
-  // סופרים רק פעולות התחברות
   const loginCounts = rows.reduce(
     (acc, row) => {
       if (row.action === "login_success") acc.success += 1;
@@ -18,7 +17,7 @@ export default function LoginPieChart({ rows }) {
     { name: "Failed", value: loginCounts.failed }
   ];
 
-  const COLORS = ["#4CAF50", "#F44336"]; // ירוק והאדום
+  const COLORS = ["#4CAF50", "#F44336"]; 
 
   return (
     <div style={{ width: "100%", height: 300 }}>
