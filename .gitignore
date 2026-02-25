@@ -1,0 +1,24 @@
+# ======================
+# Frontend (React / Node)
+# ======================
+frontend/node_modules/
+frontend/build/
+
+# ======================
+# Backend (Python)
+# ======================
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/reports.db
+
+# ======================
+# Environment variables
+# ======================
+backend/.env
+
+# ======================
+# OS files
+# ======================
+.DS_Store
+Thumbs.db
