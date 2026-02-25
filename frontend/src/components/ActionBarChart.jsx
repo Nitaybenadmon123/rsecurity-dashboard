@@ -16,13 +16,11 @@ export default function ActionBarChart({ rows }) {
     return acc;
   }, {});
 
-  // הופכים למערך + ממיינים (אפשר להסיר sort אם אתה רוצה לפי סדר אלפביתי)
   const chartData = Object.entries(counts)
     .map(([action, count]) => ({ action, count }))
     .sort((a, b) => b.count - a.count);
 
-  // גובה דינמי לפי מספר קטגוריות (כדי שיראו הכל בלי צפיפות)
-  const rowHeight = 28; // גובה לכל פעולה
+  const rowHeight = 28; 
   const minHeight = 320;
   const height = Math.max(minHeight, chartData.length * rowHeight + 80);
 
