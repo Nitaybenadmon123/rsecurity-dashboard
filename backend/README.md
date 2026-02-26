@@ -151,29 +151,90 @@ If no results are found:
 
 ---
 
-# 🐳 Docker Support
+## 🐳 Running the Backend with Docker (Important: SQLite Volume)
 
-## 1. Build Docker image
+This backend uses **SQLite (`reports.db`)** for data persistence.
 
-From backend folder:
+When running the app inside Docker, the database inside the container is **not the same** as the one on your local machine unless you explicitly mount it as a volume.
+
+If you do not mount the database file, Docker will create a new empty database inside the container, and previously created records will not appear.
+
+---
+
+### 🔧 Build the Docker Image
+
+From the `backend/` directory:
 
 ```bash
-docker build -t rsecurity-backend .
-```
-
-## 2. Run container
-
-```bash
-docker run --rm -p 8000:8000 -e API_KEY="your_super_secret_key_here" rsecurity-backend
-```
-
-Open Swagger:
-
-```
-http://127.0.0.1:8000/docs
+docker build -t security-backend .
 ```
 
 ---
+
+### ▶️ Run with Database Volume (Recommended)
+
+```bash
+docker run --rm -p 8000:8000 \
+  -e API_KEY="your_api_key_here" \
+  -v ${PWD}/reports.db:/app/reports.db \
+  security-backend
+```
+
+On Windows (PowerShell):
+
+```powershell
+docker run --rm -p 8000:8000 `
+  -e API_KEY="your_api_key_here" `
+  -v ${PWD}\reports.db:/app/reports.db `
+  security-backend
+```
+
+This ensures that:
+- The container uses the same `reports.db` file as your local project.
+- Data persists between container runs.
+- Existing records are accessible via the API.
+
+---
+
+### 🚫 What Happens Without a Volume?
+
+If you run:
+
+```bash
+docker run --rm -p 8000:8000 -e API_KEY="..."
+```
+
+Docker will create a new empty `/app/reports.db` file inside the container.
+
+As a result:
+- `GET /report/{id}` may return `404`
+- `GET /reports` may return an empty list
+- Previously created records will not be visible
+
+---
+
+### 📌 API Authentication
+
+All endpoints require the `X-API-Key` header:
+
+```
+X-API-Key: your_api_key_here
+```
+
+You can test endpoints via:
+
+- Swagger UI → `http://localhost:8000/docs`
+- cURL
+- Postman
+- Frontend integration
+
+---
+
+### 🧠 Why This Matters
+
+In containerized environments, file paths are isolated from the host system.  
+Mounting the database as a volume ensures proper data persistence and prevents confusion during development.
+
 
 # 🧠 Design Decisions
 
