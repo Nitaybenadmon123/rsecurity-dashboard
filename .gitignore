@@ -11,6 +11,10 @@ backend/venv/
 backend/__pycache__/
 backend/*.pyc
 backend/reports.db
+analysis_part_3/__pycache__/
+analysis_part_3/*.pyc
+analysis_part_3/reports.db
+anmlysis_part_3/venv/
 
 # ======================
 # Environment variables
