@@ -24,6 +24,7 @@ The dataset used in this dashboard was derived from the provided CSV log file an
 ---
 
 ## 📂 Project Structure
+```
 frontend/
 │
 ├── src/
@@ -34,7 +35,7 @@ frontend/
 │ └── ...
 ├── package.json
 └── README.md
-
+```
 
 ---
 
