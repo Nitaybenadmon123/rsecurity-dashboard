@@ -26,7 +26,7 @@ This backend includes:
 ---
 
 ## 📂 Project Structure
-
+```
 backend/
 │
 ├── app/
@@ -39,7 +39,7 @@ backend/
 ├── Dockerfile
 ├── .dockerignore
 └── .env (not committed)
-
+```
 ---
 
 # 🚀 Running Locally (Without Docker)
