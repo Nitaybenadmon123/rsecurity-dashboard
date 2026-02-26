@@ -1,65 +1,81 @@
-# 🔐 Task 3 — Login Anomaly Detection & Security Analysis  
+# 🔐 Task 3 — Login Anomaly Detection & Security Analysis
+
 ### RSecurity Dashboard – analysis_part_3
 
 This module analyzes authentication logs and detects suspicious login behavior using rule-based logic and statistical methods.
 
 It produces:
-- 📄 `anomaly_report.json` — structured anomaly report (with severity + mitigation)
-- 📊 Bonus visualizations (PNG files)
-- 🤖 Algorithmic anomaly detection (3-sigma statistical model)
 
-------------------------------------------------------------------------
+* 📄 `anomaly_report.json` — structured anomaly report (with severity + mitigation)
+* 📊 Bonus visualizations (PNG files)
+* 🤖 Algorithmic anomaly detection (3-sigma statistical model)
+
+---
 
 # 📁 Project Structure
+
+```
 RSecurity-Dashboard/
 └── analysis_part_3/
-├── analyze_logs.py
-├── plots.py
-├── anomaly_report.json
-├── bonus1_failed_login_heatmap.png
-├── bonus1_top_public_ips.png
-└── venv/
+    ├── analyze_logs.py
+    ├── plots.py
+    ├── anomaly_report.json
+    ├── bonus1_failed_login_heatmap.png
+    ├── bonus1_top_public_ips.png
+    └── venv/
+```
 
-
------------------------------------------------------------------------
+---
 
 # 📥 Input Data
 
 The system analyzes:
-frontend/data/sample_logs_no_status.csv
 
+```
+frontend/data/sample_logs_no_status.csv
+```
 
 Expected CSV fields:
 
-- `timestamp`
-- `user_id`
-- `ip_address`
-- `action` (`login_success` / `login_failed`)
+* `timestamp`
+* `user_id`
+* `ip_address`
+* `action` (`login_success` / `login_failed`)
 
-----------------------------------------------------------------
+---
 
 # 🚀 How to Run
 
 ### 1️⃣ Activate virtual environment
+
 ```bash
 cd analysis_part_3
 python -m venv venv
 venv\Scripts\activate   # Windows
+```
 
 2️⃣ Install dependencies
+
+```bash
 pip install numpy pandas matplotlib
+```
 
 3️⃣ Run anomaly detection
 
+```bash
 python analyze_logs.py
+```
 
 4️⃣ Run visualizations (Bonus 1)
+
+```bash
 python plots.py
+```
 
---------------------------------------------------------------------------------
-
+---
 
 🔎 Detection Logic
+
 1️⃣ Brute Force Detection 🔥
 
 Detects repeated failed login attempts from the same IP within a 5-minute window.
@@ -83,7 +99,7 @@ Enable account lockout
 
 Enforce MFA
 
-------------------------------------------------------------------
+---
 
 2️⃣ External/Public IP Activity 🌍
 
@@ -118,7 +134,7 @@ Alert admin
 
 Enforce MFA
 
---------------------------------------------------------------------
+---
 
 3️⃣ Geo-Hop Detection ✈️
 
@@ -140,7 +156,8 @@ Force MFA challenge
 Invalidate sessions
 
 Notify user + admin
-----------------------------------------------------------------------------
+
+---
 
 🤖 Bonus 3 — Algorithmic Anomaly Detection (3-Sigma Rule)
 
@@ -177,12 +194,14 @@ Check threat intelligence
 Correlate with failed logins
 
 Apply rate limiting if needed
-----------------------------------------------------------------------
+
+---
 
 📄 Output Format (anomaly_report.json)
 
 Each anomaly contains:
 
+```json
 {
   "timestamp": "...",
   "user_id": "...",
@@ -195,8 +214,10 @@ Each anomaly contains:
   "total_events": 0,
   "unique_users": []
 }
+```
 
--------------------------------------------------------------
+---
+
 📊 Bonus 1 — Visualizations
 
 Generated via plots.py:
@@ -216,7 +237,9 @@ Bar chart of most active external IPs
 Shows suspicious login patterns by time-of-day
 
 Highlights potential targeted attacks
----------------------------------------------------------------------------
+
+---
+
 🧠 Security Design Considerations
 
 ✔ Noise reduction by grouping external IPs
@@ -225,7 +248,6 @@ Highlights potential targeted attacks
 ✔ Combination of rule-based + statistical detection
 ✔ Ready for extension to ML models (Isolation Forest, clustering, etc.)
 
-
 🏆 Bonus Coverage
 
 | Feature                           | Implemented                   |
@@ -233,5 +255,3 @@ Highlights potential targeted attacks
 | Bonus 1 — Visualizations          | ✅                             |
 | Bonus 2 — Mitigation Suggestions  | ✅                             |
 | Bonus 3 — Algorithmic / ML Method | ✅ (3-sigma statistical model) |
-
-
