@@ -1,0 +1,758 @@
+[
+    {
+        "timestamp": "2025-09-04T10:00:00",
+        "user_id": "user14",
+        "ip_address": "203.0.113.200",
+        "reason": "Brute force suspected (7 failed logins in 5 minutes)"
+    },
+    {
+        "timestamp": "2025-09-01T08:22:00",
+        "user_id": "user2",
+        "ip_address": "92.123.45.13",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T08:27:00",
+        "user_id": "user9",
+        "ip_address": "151.101.1.69",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T08:43:00",
+        "user_id": "user11",
+        "ip_address": "93.184.216.34",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T09:06:00",
+        "user_id": "user12",
+        "ip_address": "8.8.8.8",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T09:19:00",
+        "user_id": "user9",
+        "ip_address": "104.244.42.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T09:20:00",
+        "user_id": "user18",
+        "ip_address": "151.101.1.69",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T09:25:00",
+        "user_id": "user6",
+        "ip_address": "203.0.113.76",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T09:27:00",
+        "user_id": "user17",
+        "ip_address": "104.244.42.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T09:42:00",
+        "user_id": "user4",
+        "ip_address": "203.0.113.67",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T09:43:00",
+        "user_id": "user8",
+        "ip_address": "151.101.1.69",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T09:51:00",
+        "user_id": "user6",
+        "ip_address": "93.184.216.34",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T10:12:00",
+        "user_id": "user3",
+        "ip_address": "93.184.216.34",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T10:22:00",
+        "user_id": "user19",
+        "ip_address": "92.123.45.13",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T10:36:00",
+        "user_id": "user3",
+        "ip_address": "151.101.1.69",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T10:41:00",
+        "user_id": "user7",
+        "ip_address": "93.184.216.34",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T10:46:00",
+        "user_id": "user9",
+        "ip_address": "104.244.42.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T11:07:00",
+        "user_id": "user16",
+        "ip_address": "104.244.42.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T11:10:00",
+        "user_id": "user13",
+        "ip_address": "104.244.42.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T11:24:00",
+        "user_id": "user15",
+        "ip_address": "151.101.1.69",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T11:43:00",
+        "user_id": "user20",
+        "ip_address": "1.1.1.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T11:50:00",
+        "user_id": "user7",
+        "ip_address": "185.220.100.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T11:51:00",
+        "user_id": "user3",
+        "ip_address": "151.101.1.69",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T12:08:00",
+        "user_id": "user8",
+        "ip_address": "3.5.140.10",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T12:13:00",
+        "user_id": "user16",
+        "ip_address": "151.101.1.69",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T12:25:00",
+        "user_id": "user13",
+        "ip_address": "93.184.216.34",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T12:26:00",
+        "user_id": "user9",
+        "ip_address": "93.184.216.34",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T12:33:00",
+        "user_id": "user14",
+        "ip_address": "104.244.42.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T12:39:00",
+        "user_id": "user1",
+        "ip_address": "5.5.5.5",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T13:12:00",
+        "user_id": "user16",
+        "ip_address": "8.8.8.8",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T13:40:00",
+        "user_id": "user20",
+        "ip_address": "104.244.42.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T13:49:00",
+        "user_id": "user16",
+        "ip_address": "203.0.113.76",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T13:56:00",
+        "user_id": "user9",
+        "ip_address": "93.184.216.34",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T14:05:00",
+        "user_id": "user14",
+        "ip_address": "185.34.100.28",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T14:25:00",
+        "user_id": "user15",
+        "ip_address": "203.0.113.50",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T14:36:00",
+        "user_id": "user15",
+        "ip_address": "151.101.1.69",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T14:42:00",
+        "user_id": "user8",
+        "ip_address": "8.8.8.8",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T14:55:00",
+        "user_id": "user19",
+        "ip_address": "104.244.42.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T14:57:00",
+        "user_id": "user3",
+        "ip_address": "104.244.42.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T15:00:00",
+        "user_id": "user20",
+        "ip_address": "8.8.8.8",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T15:06:00",
+        "user_id": "user1",
+        "ip_address": "151.101.1.69",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T15:37:00",
+        "user_id": "user18",
+        "ip_address": "104.244.42.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T15:59:00",
+        "user_id": "user17",
+        "ip_address": "185.220.100.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T16:15:00",
+        "user_id": "user17",
+        "ip_address": "203.0.113.67",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T17:09:00",
+        "user_id": "user8",
+        "ip_address": "5.5.5.5",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T17:32:00",
+        "user_id": "user3",
+        "ip_address": "1.1.1.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T17:35:00",
+        "user_id": "user1",
+        "ip_address": "185.34.100.18",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T18:11:00",
+        "user_id": "user16",
+        "ip_address": "5.5.5.5",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T18:20:00",
+        "user_id": "user14",
+        "ip_address": "104.244.42.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T18:24:00",
+        "user_id": "user3",
+        "ip_address": "104.244.42.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T18:47:00",
+        "user_id": "user13",
+        "ip_address": "5.5.5.5",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T18:52:00",
+        "user_id": "user2",
+        "ip_address": "93.184.216.34",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T18:59:00",
+        "user_id": "user14",
+        "ip_address": "151.101.1.69",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T19:42:00",
+        "user_id": "user19",
+        "ip_address": "203.0.113.50",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T19:45:00",
+        "user_id": "user7",
+        "ip_address": "151.101.1.69",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T19:52:00",
+        "user_id": "user12",
+        "ip_address": "104.244.42.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T19:57:00",
+        "user_id": "user9",
+        "ip_address": "8.8.8.8",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T20:04:00",
+        "user_id": "user16",
+        "ip_address": "5.5.5.5",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T20:28:00",
+        "user_id": "user12",
+        "ip_address": "203.0.113.75",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T21:39:00",
+        "user_id": "user7",
+        "ip_address": "93.184.216.34",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T21:41:00",
+        "user_id": "user11",
+        "ip_address": "185.220.100.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T21:43:00",
+        "user_id": "user5",
+        "ip_address": "93.184.216.34",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T21:45:00",
+        "user_id": "user1",
+        "ip_address": "8.8.8.8",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T21:48:00",
+        "user_id": "user3",
+        "ip_address": "8.8.8.8",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T22:00:00",
+        "user_id": "user10",
+        "ip_address": "151.101.1.69",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T22:21:00",
+        "user_id": "user20",
+        "ip_address": "104.244.42.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T22:28:00",
+        "user_id": "user7",
+        "ip_address": "151.101.1.69",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T23:11:00",
+        "user_id": "user12",
+        "ip_address": "203.0.113.50",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T23:12:00",
+        "user_id": "user5",
+        "ip_address": "104.244.42.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T23:24:00",
+        "user_id": "user14",
+        "ip_address": "151.101.1.69",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T23:28:00",
+        "user_id": "user2",
+        "ip_address": "93.184.216.34",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T23:31:00",
+        "user_id": "user7",
+        "ip_address": "93.184.216.34",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T23:39:00",
+        "user_id": "user8",
+        "ip_address": "185.34.100.22",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T23:40:00",
+        "user_id": "user14",
+        "ip_address": "3.5.140.28",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T23:53:00",
+        "user_id": "user17",
+        "ip_address": "5.5.5.5",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T00:17:00",
+        "user_id": "user15",
+        "ip_address": "104.244.42.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T01:08:00",
+        "user_id": "user10",
+        "ip_address": "8.8.8.8",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T01:39:00",
+        "user_id": "user12",
+        "ip_address": "151.101.1.69",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T01:42:00",
+        "user_id": "user17",
+        "ip_address": "185.34.100.20",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T01:58:00",
+        "user_id": "user15",
+        "ip_address": "5.5.5.5",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T02:05:00",
+        "user_id": "user8",
+        "ip_address": "93.184.216.34",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T02:13:00",
+        "user_id": "user17",
+        "ip_address": "92.123.45.18",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T02:21:00",
+        "user_id": "user4",
+        "ip_address": "104.244.42.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T02:23:00",
+        "user_id": "user14",
+        "ip_address": "203.0.113.60",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T02:54:00",
+        "user_id": "user15",
+        "ip_address": "104.244.42.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T03:26:00",
+        "user_id": "user16",
+        "ip_address": "151.101.1.69",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T03:27:00",
+        "user_id": "user10",
+        "ip_address": "203.0.113.69",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T03:35:00",
+        "user_id": "user7",
+        "ip_address": "104.244.42.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T03:48:00",
+        "user_id": "user16",
+        "ip_address": "93.184.216.34",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T03:53:00",
+        "user_id": "user3",
+        "ip_address": "151.101.1.69",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T04:04:00",
+        "user_id": "user15",
+        "ip_address": "151.101.1.69",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T04:41:00",
+        "user_id": "user7",
+        "ip_address": "104.244.42.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T04:46:00",
+        "user_id": "user3",
+        "ip_address": "203.0.113.62",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T05:04:00",
+        "user_id": "user12",
+        "ip_address": "93.184.216.34",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T05:12:00",
+        "user_id": "user14",
+        "ip_address": "151.101.1.69",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T05:20:00",
+        "user_id": "user19",
+        "ip_address": "93.184.216.34",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T05:24:00",
+        "user_id": "user9",
+        "ip_address": "104.244.42.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T05:49:00",
+        "user_id": "user16",
+        "ip_address": "151.101.1.69",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T06:10:00",
+        "user_id": "user20",
+        "ip_address": "203.0.113.78",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T06:31:00",
+        "user_id": "user10",
+        "ip_address": "151.101.1.69",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T06:58:00",
+        "user_id": "user18",
+        "ip_address": "104.244.42.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T07:38:00",
+        "user_id": "user20",
+        "ip_address": "1.1.1.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T08:03:00",
+        "user_id": "user17",
+        "ip_address": "104.244.42.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T08:06:00",
+        "user_id": "user18",
+        "ip_address": "185.220.100.1",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T08:16:00",
+        "user_id": "user8",
+        "ip_address": "5.5.5.5",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-02T08:29:00",
+        "user_id": "user12",
+        "ip_address": "151.101.1.69",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-03T14:01:43",
+        "user_id": "user10",
+        "ip_address": "5.5.5.5",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-03T14:03:21",
+        "user_id": "user11",
+        "ip_address": "5.5.5.5",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-03T14:03:55",
+        "user_id": "user20",
+        "ip_address": "5.5.5.5",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-03T14:05:18",
+        "user_id": "user2",
+        "ip_address": "5.5.5.5",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-03T14:05:52",
+        "user_id": "user3",
+        "ip_address": "5.5.5.5",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-03T14:07:25",
+        "user_id": "user19",
+        "ip_address": "5.5.5.5",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-04T10:00:00",
+        "user_id": "user14",
+        "ip_address": "203.0.113.200",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-04T10:00:45",
+        "user_id": "user14",
+        "ip_address": "203.0.113.200",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-04T10:01:30",
+        "user_id": "user14",
+        "ip_address": "203.0.113.200",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-04T10:02:15",
+        "user_id": "user14",
+        "ip_address": "203.0.113.200",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-04T10:03:00",
+        "user_id": "user14",
+        "ip_address": "203.0.113.200",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-04T10:03:45",
+        "user_id": "user14",
+        "ip_address": "203.0.113.200",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-04T10:04:30",
+        "user_id": "user14",
+        "ip_address": "203.0.113.200",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-04T10:05:15",
+        "user_id": "user14",
+        "ip_address": "203.0.113.200",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-06T09:00:00",
+        "user_id": "user16",
+        "ip_address": "185.34.100.25",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-06T09:04:00",
+        "user_id": "user16",
+        "ip_address": "3.5.140.16",
+        "reason": "Access from external/public IP"
+    },
+    {
+        "timestamp": "2025-09-01T12:00:00",
+        "user_id": "user18",
+        "ip_address": "192.168.1.80",
+        "reason": "Geo-hop suspected (login from different IP within short time)"
+    },
+    {
+        "timestamp": "2025-09-06T09:04:00",
+        "user_id": "user16",
+        "ip_address": "3.5.140.16",
+        "reason": "Geo-hop suspected (login from different IP within short time)"
+    },
+    {
+        "timestamp": "2025-09-01T13:33:00",
+        "user_id": "user15",
+        "ip_address": "192.168.1.77",
+        "reason": "Geo-hop suspected (login from different IP within short time)"
+    },
+    {
+        "timestamp": "2025-09-02T08:43:00",
+        "user_id": "user5",
+        "ip_address": "192.168.1.30",
+        "reason": "Geo-hop suspected (login from different IP within short time)"
+    }
+]
